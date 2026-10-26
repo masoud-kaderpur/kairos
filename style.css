@@ -1,0 +1,125 @@
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://rsms.me/inter/font-files/Inter-Regular.woff2') format('woff2');
+  font-display: swap;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #111;
+  background: #fff;
+  line-height: 1.6;
+  margin: 1.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 10px;
+  background: #000;
+  color: #fff;
+  padding: 6px 12px;
+  z-index: 999;
+}
+
+.skip-link:focus {
+  top: 10px;
+}
+
+:focus-visible {
+  outline: 3px solid #000;
+  outline-offset: 2px;
+}
+
+a {
+  color: #003399;
+}
+
+nav a {
+  margin-right: 12px;
+  font-weight: 600;
+}
+
+header, footer {
+  border-bottom: 2px solid #222;
+  padding-bottom: 12px;
+  margin-bottom: 24px;
+}
+
+footer {
+  border-top: 2px solid #222;
+  border-bottom: none;
+  margin-top: 36px;
+  padding-top: 12px;
+}
+
+.box, .plan-box, .media-card, .contact-box, .brand-card {
+  border: 1px solid #333;
+  padding: 12px 16px;
+  margin: 16px 0;
+  max-width: 480px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+}
+
+th, td {
+  border: 1px solid #444;
+  padding: 8px 10px;
+  text-align: left;
+}
+
+th {
+  background: #eee;
+}
+
+.form-group {
+  margin-bottom: 12px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  max-width: 480px;
+  padding: 6px;
+  border: 1px solid #333;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 6px 16px;
+  cursor: pointer;
+  background: #eee;
+  border: 1px solid #333;
+  font-weight: bold;
+}
+
+.wordmark-sample {
+  font-size: 1.4rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  display: inline-block;
+  margin: 6px 0;
+}
+
+.color-sample {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: #1e3a8a;
+  border: 1px solid #000;
+  vertical-align: middle;
+  margin-right: 6px;
+}
